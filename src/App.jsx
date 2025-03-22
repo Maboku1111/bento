@@ -1,5 +1,4 @@
 import "./App.css";
-import { Bento } from "../src/layouts/Bento";
 import { useState } from "react";
 import axios from "axios";
 
@@ -35,7 +34,6 @@ function App() {
         Get Random Bible Verse
       </button>
       {verse && <h1>{verse}</h1>}
-      <Bento></Bento>
     </>
   );
 }
