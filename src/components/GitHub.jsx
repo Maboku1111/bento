@@ -1,8 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+
 const GitHubLink = () => {
     return (
-        <>
-            <h1>This is my GitHub link!!!</h1>
-        </>
+        <Link to="/">
+            <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
+        </Link>
     )
 }
 

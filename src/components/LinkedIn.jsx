@@ -1,9 +1,14 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+
 const LinkedInLink = () => {
-    return (
-        <>
-            <h1>This is my LinkedIn link!!!</h1>
-        </>
-    )
-}
+  return (
+    <div>
+      <Link to="">
+        <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
+      </Link>
+    </div>
+  );
+};
 
 export default LinkedInLink;

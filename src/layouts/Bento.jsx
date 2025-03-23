@@ -31,7 +31,7 @@ export const Bento = () => {
       </div>
       <div className="box box7">7</div>
       <div className="box box8">8</div>
-      <div className="box box9">9</div>
+      {/* <div className="box box9">9</div> */}
       <div className="box box10">
         <ContactMe />
       </div>
